@@ -1,4 +1,4 @@
-@main def main():Unit = print(yearlyInterest(20000000))
+@main def main():Unit = print(yearlyInterest(scala.io.StdIn.readInt()))
 
 
 def yearlyInterest(deposit:Int):Double = deposit.match{
